@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "paralleldimensions",
+  "version": "${version}",
+
+  "name": "Parallel Dimensions",
+  "description": "Falling into the void in the Overworld or End will send you to another dimension",
+  "authors": [
+    "Absent_Light"
+  ],
+  "contact": {
+    "website": "darke.xyz"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/paralleldimensions/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "server": [
+      "darke.xyz.paralleldimensions.ParallelDimensions"
+    ]
+  },
+  "mixins": [
+  ],
+  "depends": {
+    "fabricloader": ">=0.9.2+build.206",
+    "fabric": "*",
+    "minecraft": "1.16.2"
+  }
+}
